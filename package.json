@@ -1,0 +1,15 @@
+{
+  "name": "pico-upython-ina219",
+  "version": "1.0.0",
+  "description": "MicroPython driver for the Voltage and Current Sensor INA219.", 
+  "author": "mslembro",
+  "license": "MIT",
+  "urls": [
+    ["ina219.py", "github:mslembro/pico-upython-ina219/ina219.py"]
+  ],
+  "deps": [],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/mslembro/pico-upython-ina219.py"
+    }
+}
