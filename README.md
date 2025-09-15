@@ -21,6 +21,15 @@ The library has been tested with the [Adafruit INA219 Breakout](https://www.adaf
 
 If you successfully use this library with an WiPy, etc, please let me know.
 
+## Install on your board
+
+Using mip, you can install this on the board (make sure to first enable the Wifi connection)
+
+```python
+import mip
+mip.install("github:UGent-FEA-upython/pico-upython-ina219")
+```
+
 ## Usage
 
 If you want to give it a try then copy _[ina219.py](https://raw.githubusercontent.com/chrisb2/pyb_ina219/master/ina219.py)_ and _[logging.py](https://raw.githubusercontent.com/micropython/micropython-lib/master/python-stdlib/logging/logging.py)_ onto the flash drive of your pyboard, connect the sensor to the I2C(1) or I2C(2) interfaces on the pyboard,
